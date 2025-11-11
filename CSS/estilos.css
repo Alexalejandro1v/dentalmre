@@ -166,16 +166,16 @@ textarea {
 }
 
 .reset-btn{
-background: #000000;
+background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
     color: white;
     padding: 1rem 2rem;
     border: none;
-    border-radius: 1px;
+    border-radius: 2px;
     font-size: 1.1rem;
-    font-weight: 40;
+    font-weight: 100;
     cursor: pointer;
-    width: 10%;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;	
+    width: 20%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;		
 	
 }
 
@@ -316,4 +316,5 @@ footer p {
     }
 
 }
+
 
