@@ -178,8 +178,15 @@ background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
     transition: transform 0.3s ease, box-shadow 0.3s ease;		
 	
 }
+.reset-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(52, 152, 219, 0.4);
+}
 
+.reset-btn:active {
+    transform: translateY(0);
 
+}
 
 .submit-btn {
     background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
@@ -316,5 +323,6 @@ footer p {
     }
 
 }
+
 
 
