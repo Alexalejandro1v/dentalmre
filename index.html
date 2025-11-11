@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Clínica Dental profesional - Cuidamos de tu sonrisa con más de 20 años de experiencia">
+    <meta name="keywords" content="dentista, clínica dental, ortodoncia, limpieza dental, implantes">
+    <title>Clínica Dental - Tu Sonrisa Perfecta</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <img src="img/logo.png" alt="Logo Clínica Dental" class="logo">
+                <h1>🦷 Clínica Dental</h1>
+                <p class="tagline">Tu sonrisa es nuestra pasión</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Cuidamos de tu salud dental con tecnología de vanguardia</h2>
+            <p>Más de 20 años de experiencia brindando sonrisas saludables</p>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <img src="img/limpieza.jpeg" alt="Limpieza Dental" class="service-img">
+                    <h3>🪥 Limpieza Dental</h3>
+                    <p>Mantenemos tu sonrisa brillante y saludable con limpiezas profesionales.</p>
+                </div>
+                <div class="service-card">
+                    <img src="img/ortodoncia.jpeg" alt="Ortodoncia" class="service-img">
+                    <h3>🦷 Ortodoncia</h3>
+                    <p>Brackets y alineadores invisibles para una sonrisa perfectamente alineada.</p>
+                </div>
+                <div class="service-card">
+                    <img src="img/blanqueamiento.jpeg" alt="Blanqueamiento" class="service-img">
+                    <h3>✨ Blanqueamiento</h3>
+                    <p>Recupera el blanco natural de tus dientes con nuestros tratamientos especializados.</p>
+                </div>
+                <div class="service-card">
+                    <img src="img/implantes.jpeg" alt="Implantes" class="service-img">
+                    <h3>🔧 Implantes</h3>
+                    <p>Soluciones permanentes para reemplazar dientes perdidos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contacto">
+        <div class="container">
+            <h2>Contáctanos</h2>
+            <p class="contact-intro">¿Tienes alguna pregunta? Estamos aquí para ayudarte. Llena el formulario y nos pondremos en contacto contigo.</p>
+                
+                <!-- IMPORTANTE: Reemplaza con tu Access Key de Web3Forms -->
+                <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="cf3cfaba-4575-4e1e-afdf-674af2f061ae">
+                
+                <!-- Configuración adicional -->
+                <input type="hidden" name="subject" value="🦷 Nuevo contacto desde Clínica Dental">
+                <input type="hidden" name="from_name" value="Clínica Dental">
+            
+            
+                <div class="form-group">
+                    <label for="nombre">Nombre completo <span class="required">*</span></label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Ej: Juan Pérez">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo electrónico <span class="required">*</span></label>
+                    <input type="email" id="email" name="email" required placeholder="ejemplo@correo.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="telefono">Teléfono <span class="required">*</span></label>
+                    <input type="tel" id="telefono" name="telefono" required placeholder="Ej: 5551234567" pattern="[0-9\s\-\(\)]+">
+                </div>
+
+                <div class="form-group">
+                    <label for="comentarios">Dudas y comentarios <span class="required">*</span></label>
+                    <textarea id="comentarios" name="comentarios" required placeholder="Cuéntanos cómo podemos ayudarte..."></textarea>
+                				<input type="reset" class="reset-btn" value="limpiar campos">
+                
+                </div>
+				
+
+                <button type="submit" class="submit-btn">Enviar mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+        
+        	<!-- Redes Sociales -->
+            <div class="social-media">
+                <h3>Síguenos en Redes Sociales</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/share/1D4auXKSoo/" target="_blank" rel="noopener noreferrer" class="social-btn facebook">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                        </svg>
+                        Facebook
+        			</a>
+        			
+        			 </div>
+            </div>
+            
+            <div class="footer-info">
+                <p>&copy; 2025 Clínica Dental. Todos los derechos reservados.</p>
+                <p>📍 Calle 1ro  de Junio, Tonanitla, Santa Maria Tonanitla, Mèxico, 55789. | 📞 (55) 4303-0385 | ✉️ dentalmrelizabeth@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+    
+    
+</body>
+</html>
