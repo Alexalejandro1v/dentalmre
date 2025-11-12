@@ -172,9 +172,9 @@ background: #000000;
     border: none;
     border-radius: 5px;
     font-size: 1.1rem;
-    font-weight: 380;
+    font-weight: 480;
     cursor: pointer;
-    width: 40%;
+    width: 60%;
     transition: transform 0.3s ease, box-shadow 0.3s ease;		
 	
 }
@@ -323,6 +323,7 @@ footer p {
     }
 
 }
+
 
 
 
